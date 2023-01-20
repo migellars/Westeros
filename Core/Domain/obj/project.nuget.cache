@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "ZQc3m4wQ4s/DQluorZKgZZAeXWjgHIDQowugq1rrc2lm+Y+/Y2DmSKNSE3Idl4aX++cUIVt3Jl5R5y1uiCq66Q==",
+  "dgSpecHash": "650BI60jUN6yQpSnviiKgnPjyFYiSgxYbl96xzM8tYDZpX0vaqYrR9kJjH5E/Hs0e2BOj6AruTk9RlROy53YCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\Core\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Abelmi\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Abelmi\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.12\\microsoft.aspnetcore.jsonpatch.6.0.12.nupkg.sha512",
+    "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.12\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.12.nupkg.sha512",
+    "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Abelmi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Abelmi\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

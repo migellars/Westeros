@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using SharedKernel.Helpers.API_Helper;
 
 namespace Westeros.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    [AllowAnonymous]
+    [Route("weather")]
+    public class WeatherForecastController : BaseController<WeatherForecastController>
     {
         private static readonly string[] Summaries = new[]
         {
@@ -18,7 +20,7 @@ namespace Westeros.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet("get-weather", Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
