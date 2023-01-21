@@ -1,0 +1,75 @@
+<div class="container ">
+    <div class="row gx-2">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <a class="btn btn-outline-primary" routerLink="/author/create">Create New Author</a>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-hover table-responsive">
+                        <thead>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Action</th>
+                        </thead>
+                        <tbody class="table-group-divider">
+                            <tr *ngFor="let author of authors">
+                                <td>{{ author.firstName}}</td>
+                                <td>{{ author.lastName}}</td>
+                                <td>{{ author.email}}</td>
+                                <td>{{ author.phone}}</td>
+
+                                <td>
+                                    <div class="container clearfix">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <a [routerLink]="['/author/edit', author.id]"
+                                                            class="btn btn-outline-primary">Edit</a>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <a (click)="deleteAuthor(author.id)"
+                                                            class="btn btn-outline-danger">Delete</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../../../../assets/images/samuel_tally.jpeg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <p class="card-text">
+                        Samwell was chosen as the new Grand Maester by Bran after his election. After his appointment,
+                        he assisted Archmaester
+                        Ebrose with the title of his history book recounting the wars in Westeros after the
+                        assassination of Robert Baratheon,
+                        which he showed to Tyrion, the new Hand of the King, at the first small council meeting. When
+                        Tyrion asks what the book
+                        states about him, he reluctantly replies that he isn't mentioned.
+                        <br>
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <p class="card-text">
+                        Source: <a src="https://gameofthrones.fandom.com/wiki/Samwell_Tarly"> fandom </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

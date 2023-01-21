@@ -1,0 +1,102 @@
+<div class="container cont">
+    <div class="row gx-2">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header">
+                            Go ahead, do what you like
+                        </div>
+                        <div class="card-body">
+                            <form class="row g-3" [formGroup]="authorForm" (ngSubmit)="submitForm()">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="firstName" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" id="firstName"
+                                            aria-describedby="firstName" formControlName="firstName">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="lastName" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="lastName"
+                                            aria-describedby="lastName" formControlName="lastName">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                            formControlName="email">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                            else.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">Phone</label>
+                                        <input type="text" class="form-control" id="phone" aria-describedby="phone"
+                                            formControlName="phone">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="street" class="form-label">Street</label>
+                                    <input type="text" class="form-control" id="street" formControlName="street">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="inputCity" class="form-label">City</label>
+                                    <input type="text" class="form-control" id="inputCity" formControlName="city">
+                                </div>
+                                <div class=" col-md-2">
+                                    <label for="inputZip" class="form-label">Zip</label>
+                                    <input type="text" class="form-control" id="inputZip" formControlName="zipCode">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="inputState" class="form-label">State</label>
+                                    <input type="text" class="form-control" id="inputState" formControlName="state">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="localgovt" class="form-label">Local Govt</label>
+                                    <input type="text" class="form-control" id="localgovt" formControlName="localGovt">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="country" class="form-label">Country</label>
+                                    <input type="text" class="form-control" id="country" formControlName="country">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary"
+                                        [disabled]="authorForm.invalid">Update</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../../../../assets/images/tower-library.jpeg" class="card-img-top img-fluid"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                The Citadel was granted to the Maesters in the Age of Heroes by King Urrigon Hightower,
+                                whose recently-deceased brother
+                                Peremore was a patron to the learned men. It is administered by the Conclave, the ruling
+                                council of archmaesters. The
+                                Citadel is also where young men from the entire continent are trained to become
+                                Maesters.
+                                <br>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text">
+                                Source: <a src="https://gameofthrones.fandom.com/wiki/Citadel"> fandom </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

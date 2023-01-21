@@ -17,4 +17,8 @@ export class AppComponent implements OnInit {
       this.userProfile = data;
     });
   }
+
+  logout() {
+    this.authService.logout();
+  }
 }

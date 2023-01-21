@@ -16,8 +16,8 @@
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" *ngIf="(userProfile?.sub != null)">
-        <li><a href="#" class="nav-link px-2 link-secondary" routerLink="author">Author</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark" routerLink="lesson">Tutorial</a></li>
+        <li><a href="#" class="nav-link px-2 link-secondary" routerLink="/author/dashboard">Author</a></li>
+        <!-- <li><a href="#" class="nav-link px-2 link-dark muted" routerLink="/">Tutorial</a></li> -->
       </ul>
 
       <div class="col-md-3 text-end" *ngIf="(userProfile?.sub == null)">
@@ -26,7 +26,7 @@
       </div>
       <div class="col-md-3 text-end" *ngIf="(userProfile?.sub != null)">
         <button class="btn btn-link me-2 " disabled>{{userProfile?.email}}</button>
-        <a class="btn btn-outline-danger ">Logout</a>
+        <button class="btn btn-outline-danger " (click)="logout()">Logout</button>
       </div>
     </header>
   </div>
