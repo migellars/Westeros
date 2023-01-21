@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "5Xe6UpzhWQjben0/ax9oazXiEo86ywsWZfgYL6biNoNhI2UB7oq46EKkWyc4yV73KeN6OMfHR8gJ9Y0+8EIACg==",
+  "dgSpecHash": "3z2ytu4qewFnle9+Quzxvs3VpHRAHFOp5ep+VMUb0RB7YvnjJ7Mxe+jXpJSlQaAC4Wgix/sTEsQaSvkr3BuRZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.12\\microsoft.aspnetcore.jsonpatch.6.0.12.nupkg.sha512",
+    "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.12\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.12.nupkg.sha512",
+    "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Abelmi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Abelmi\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abelmi\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -11,13 +11,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7AB5D178-B7EA-4BDA-8CE6-DFE4FAA30CD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "backend\Api\Api.csproj", "{D2F5BEC4-7C30-4DF1-9BA5-F922DBCB598D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "backend\Api\Api.csproj", "{D2F5BEC4-7C30-4DF1-9BA5-F922DBCB598D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "backend\Domain\Domain.csproj", "{262679BF-DE8F-4AE3-928F-B9BF11160993}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "backend\Domain\Domain.csproj", "{262679BF-DE8F-4AE3-928F-B9BF11160993}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "backend\Application\Application.csproj", "{A8B3AC39-7D18-41A8-9E0F-9413F1D36498}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "backend\Application\Application.csproj", "{A8B3AC39-7D18-41A8-9E0F-9413F1D36498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "backend\Infrastructure\Infrastructure.csproj", "{C351E53A-DE0B-487E-9F4F-091195043DB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "backend\Infrastructure\Infrastructure.csproj", "{C351E53A-DE0B-487E-9F4F-091195043DB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{B0099F1C-F554-49BF-B21E-1E8246DE0F81}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
