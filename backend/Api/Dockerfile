@@ -8,6 +8,10 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["backend/Api/Api.csproj", "backend/Api/"]
+COPY ["SharedKernel/SharedKernel.csproj", "SharedKernel/"]
+COPY ["backend/Application/Application.csproj", "backend/Application/"]
+COPY ["backend/Domain/Domain.csproj", "backend/Domain/"]
+COPY ["backend/Infrastructure/Infrastructure.csproj", "backend/Infrastructure/"]
 RUN dotnet restore "backend/Api/Api.csproj"
 COPY . .
 WORKDIR "/src/backend/Api"
