@@ -105,3 +105,10 @@
 2023-01-21 13:07:45.468 +01:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 211ms
 2023-01-21 12:10:48.485 +00:00 [INF] () ) Configuring web host (Api)
 2023-01-21 12:10:48.583 +00:00 [INF] () ) Started web host (Api)
+2023-01-21 12:21:13.818 +00:00 [INF] () ) Configuring web host (Api)
+2023-01-21 12:21:13.937 +00:00 [INF] () ) Started web host (Api)
+2023-01-21 12:21:18.932 +00:00 [INF] () ) Message :::  Role exist :::
+2023-01-21 12:21:19.467 +00:00 [WRN] () ) Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-01-21 12:27:14.208 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 12:27:14.218 +00:00 [INF] () ) [DATA] With data: {"UserName":"string","Password":"string123","ConfirmPassword":"string123"}
+2023-01-21 12:27:16.242 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 2028ms

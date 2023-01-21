@@ -1,0 +1,38 @@
+<div class="container mt-2 cons">
+    <div class="card">
+        <div class="card-header">
+            <legend class="card-title ">Sign In</legend>
+        </div>
+        <div class="card-body">
+            <div class="container">
+                <form class="row g-3" [formGroup]="authForm" (ngSubmit)="submitForm()">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mb-3 mt-2">
+                                <label for="txtPassword" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="txtPassword" formControlName="username" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="txtUserName" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="txtUserName"
+                                    formControlName="password" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="txtConfirmUserName" class="form-label">Confirm Password</label>
+                                <input type="password" class="form-control" id="txtConfirmUserName"
+                                    formControlName="confirmpassword" />
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" [disabled]="authForm.invalid">Dracarys</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
