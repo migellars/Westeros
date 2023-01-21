@@ -16,4 +16,8 @@
     <ProjectReference Include="..\..\SharedKernel\SharedKernel.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Auth\Commands\Update\" />
+  </ItemGroup>
 </Project>

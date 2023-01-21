@@ -2,6 +2,6 @@
 
 namespace SharedKernel.Resources.CQRS;
 
-public interface ILannisterNotification: INotification
+public interface IWesterosNotification: INotification
 {
 }

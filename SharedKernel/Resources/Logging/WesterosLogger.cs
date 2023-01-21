@@ -3,11 +3,11 @@
 namespace SharedKernel.Resources.Logging;
 
 
-public record LannisterLogger
+public record WesterosLogger
 {
-    public static LannisterLogger CreateInstance()
+    public static WesterosLogger CreateInstance()
     {
-        return new LannisterLogger();
+        return new WesterosLogger();
     }
 
     private static string? ErrorCode { get; set; }
