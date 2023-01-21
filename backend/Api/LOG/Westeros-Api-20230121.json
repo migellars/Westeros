@@ -1,0 +1,8 @@
+2023-01-21 11:29:37.842 +01:00 [INF] () ) Configuring web host (Api)
+2023-01-21 11:29:37.979 +01:00 [INF] () ) Started web host (Api)
+2023-01-21 11:30:42.831 +01:00 [INF] () ) Configuring web host (Api)
+2023-01-21 11:30:42.942 +01:00 [INF] () ) Started web host (Api)
+2023-01-21 11:30:47.903 +01:00 [INF] () ) Message :::  Role exist :::
+2023-01-21 11:33:32.235 +01:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 11:33:32.248 +01:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 11:33:33.484 +01:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 1239ms

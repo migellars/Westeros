@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Rd1TdalZeeKZLVq0wqdSD3xZ/gJxK81ld97d1kpNMOM0SIIb5uW3n0KTV7UsnCqsBGErkU0db+DKvcN+nre0Xw==",
+  "dgSpecHash": "HwRsJUWvtEsqTwAyrUvBgV6ViALitCiUVmB/hkIwZzAv/3qruUtduYCp8Ww5TUnqRn3gPsWhLijITA+kGqjzDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\SharedKernel.csproj",
   "expectedPackageFiles": [
@@ -69,7 +69,6 @@
     "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.0\\microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
     "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.0\\microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
     "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.0\\microsoft.entityframeworkcore.sqlserver.7.0.0.nupkg.sha512",
-    "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\7.0.1\\microsoft.extensions.apidescription.server.7.0.1.nupkg.sha512",
     "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\Abelmi\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

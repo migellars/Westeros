@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Serilog;
+using Serilog.Events;
 
 namespace SharedKernel.Resources.Logging;
 
@@ -13,6 +14,7 @@ public class SerilogConfiguration
             var config = GetConfiguration();
 
             configuration
+                .WriteTo.Console(LogEventLevel.Information)
                 .Enrich.FromLogContext()
                 .Enrich.WithMachineName()
                 .Enrich.WithProperty("Environment", context.HostingEnvironment.EnvironmentName)

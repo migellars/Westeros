@@ -50,8 +50,8 @@ public class ConfigureSwaggerOptions: IConfigureNamedOptions<SwaggerGenOptions>
         var info = new OpenApiInfo()
         {
             Version = desc.ApiVersion.ToString(),
-            Title = "House Lannister",
-            Description = "Jamie the backend",
+            Title = "For Starks",
+            Description = "We love the Targaryans too",
             Contact = new OpenApiContact()
             {
                 Name = "Michael",
