@@ -24,6 +24,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6FE0F5BA-4F15-437B-815D-30CBC6994F0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{A8A7C492-2A62-431C-993A-8EC675407925}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +50,10 @@ Global
 		{C351E53A-DE0B-487E-9F4F-091195043DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C351E53A-DE0B-487E-9F4F-091195043DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C351E53A-DE0B-487E-9F4F-091195043DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A7C492-2A62-431C-993A-8EC675407925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A7C492-2A62-431C-993A-8EC675407925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A7C492-2A62-431C-993A-8EC675407925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A7C492-2A62-431C-993A-8EC675407925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +66,8 @@ Global
 		{262679BF-DE8F-4AE3-928F-B9BF11160993} = {6957A82D-4387-4EE9-9279-0DC8C0757B37}
 		{A8B3AC39-7D18-41A8-9E0F-9413F1D36498} = {6957A82D-4387-4EE9-9279-0DC8C0757B37}
 		{C351E53A-DE0B-487E-9F4F-091195043DB3} = {52A690DC-B3CE-4721-9193-8F4C2C053E1F}
+		{6FE0F5BA-4F15-437B-815D-30CBC6994F0D} = {094D4932-06CA-4655-8E04-357714E4DFDC}
+		{A8A7C492-2A62-431C-993A-8EC675407925} = {6FE0F5BA-4F15-437B-815D-30CBC6994F0D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CBA6578-7F42-4024-9C99-58B91D9E3DDF}
