@@ -166,3 +166,7 @@ C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\obj\Debug\net6.0\Api.pdb
 C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
 C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\obj\Debug\net6.0\ref\Api.dll
 C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\bin\Debug\net6.0\LOG\Westeros-Api-20230121.json
+C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll

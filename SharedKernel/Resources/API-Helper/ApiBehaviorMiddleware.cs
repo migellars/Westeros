@@ -69,7 +69,7 @@ public static class ApiBehaviorMiddleware
             .AddNewtonsoftJson(setupAction =>
             {
                 setupAction.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
-                setupAction.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+                setupAction.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Error;
                 setupAction.SerializerSettings.Converters.Add(new StringEnumConverter());
             }).AddJsonOptions(options =>
             {
@@ -84,7 +84,7 @@ public static class ApiBehaviorMiddleware
                 {
                     var result = new BadRequestObjectResult(context.ModelState);
                     result.ContentTypes.Add(MediaTypeNames.Application.Json);
-                    //result.ContentTypes.Add(MediaTypeNames.Application.Xml);
+                    result.ContentTypes.Add(MediaTypeNames.Application.Xml);
                     return result;
                 };
                 options.SuppressConsumesConstraintForFormFileParameters = true;

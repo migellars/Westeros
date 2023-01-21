@@ -8,6 +8,7 @@ namespace SharedKernel.Resources.API_Helper;
 
 [ApiController]
 [Authorize]
+[Produces("application/json")]
 public class BaseController<T> : ControllerBase where T : BaseController<T>
 {
     private ILogger<T>? _logger;

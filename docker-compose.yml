@@ -1,0 +1,25 @@
+version: '3.4'
+
+services:
+  api:
+    image: ${DOCKER_REGISTRY-}api
+    container_name: backend-api
+    build:
+      context: backend/Api
+      dockerfile: Dockerfile
+    depends_on:
+       - db
+    restart: unless-stopped
+    ports:
+       - "7225:80"
+    expose:
+      - "7225"
+
+  db:
+    image: "mcr.microsoft.com/mssql/server:2022-latest"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=password@1
+    restart: unless-stopped
+    ports:
+      - "1450:1433"
