@@ -1,0 +1,99 @@
+2023-01-22 03:38:00.886 +00:00 [INF] () ) Configuring web host (Api)
+2023-01-22 03:38:02.087 +00:00 [INF] () ) Started web host (Api)
+2023-01-22 03:38:12.175 +00:00 [WRN] () ) Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-01-22 03:38:12.219 +00:00 [WRN] () ) No XML encryptor configured. Key {de607789-9756-4e0e-8a19-d71a13ae9d6d} may be persisted to storage in unencrypted form.
+2023-01-22 03:44:22.785 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-22 03:44:22.802 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-22 03:44:23.873 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 1073ms
+2023-01-22 03:45:29.361 +00:00 [INF] () ) [START] Handling RegisterUserCommand
+2023-01-22 03:45:29.365 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","Email":"test@test.com","PhoneNumber":"08067139857"}
+2023-01-22 03:45:30.448 +00:00 [INF] () ) Message :::  https://localhost:56657/api/confirm-email?token=CfDJ8Il3YN5Wlw5OihnXGhOunW3whP4qkeH53NqpKaDS8dMoQfEFhCkXaT9Gme5E7ZF8%2BNX4Op8GOcycXieF35nEklxZM2iEVYG798Vrvgs3hIFSbOuPg6EzOSpp8luC5ZoLBt9awuQj1nVmyLP64GFxXvL4eUNB4xywSaNSwq5u28EEnja8IVlp3qELVVa9sZDiDL5WY%2FGcipVRJNUQPulHwePOB8YjgdPcRcBY00HJVlyoCJsbjtD%2FEvNAKB%2Bkgmq61w%3D%3D :::
+2023-01-22 03:45:30.477 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 1114ms
+2023-01-22 03:45:36.122 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-22 03:45:36.130 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-22 03:45:36.945 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 815ms
+2023-01-22 03:45:40.477 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-22 03:45:40.483 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-22 03:45:40.744 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 263ms
+2023-01-22 03:46:08.261 +00:00 [INF] () ) [START] Handling CreateAuthorCommand
+2023-01-22 03:46:08.273 +00:00 [INF] () ) [DATA] With data: {"FirstName":"Sample","LastName":"Test","Email":"test@test.com","Phone":"8067139847","City":"test","Street":"Test","State":"Test","Country":"Nigeria","LocalGovt":"test","ZipCode":"1233"}
+2023-01-22 03:46:09.253 +00:00 [INF] () ) Message :::  Send Email Event Triggered :::
+2023-01-22 03:46:09.262 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 992ms
+2023-01-22 03:46:09.415 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-22 03:46:09.428 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-22 03:46:09.522 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 93ms
+2023-01-22 03:46:11.853 +00:00 [INF] () ) [START] Handling GetAuthorByIdQuery
+2023-01-22 03:46:11.895 +00:00 [INF] () ) [DATA] With data: {"Id":"5bdb8476-03a1-4eb9-5e18-08dafc2b324b"}
+2023-01-22 03:46:12.041 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 185ms
+2023-01-22 03:46:21.572 +00:00 [INF] () ) [START] Handling UpdateAuthorCommand
+2023-01-22 03:46:21.580 +00:00 [INF] () ) [DATA] With data: {"Id":"5bdb8476-03a1-4eb9-5e18-08dafc2b324b","FirstName":"Sample new","LastName":"Test edit","Phone":"8067139847","City":"test","Street":"Test","State":"Test","Country":"Nigeria","LocalGovt":"test","ZipCode":"1233"}
+2023-01-22 03:46:21.817 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 242ms
+2023-01-22 03:46:21.935 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-22 03:46:21.939 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-22 03:46:21.954 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 14ms
+2023-01-22 03:46:25.576 +00:00 [INF] () ) [START] Handling RemoveAuthorCommand
+2023-01-22 03:46:25.581 +00:00 [INF] () ) [DATA] With data: {"Id":"5bdb8476-03a1-4eb9-5e18-08dafc2b324b"}
+2023-01-22 03:46:25.714 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 133ms
+2023-01-22 03:46:25.757 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-22 03:46:25.760 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-22 03:46:25.792 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 32ms
+2023-01-22 03:49:01.108 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-22 03:49:01.110 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-22 03:49:01.295 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 184ms
+2023-01-22 03:49:03.976 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-22 03:49:03.984 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-22 03:49:04.025 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 20ms
+2023-01-22 03:49:25.235 +00:00 [INF] () ) [START] Handling CreateAuthorCommand
+2023-01-22 03:49:25.240 +00:00 [INF] () ) [DATA] With data: {"FirstName":"Sample","LastName":"Test","Email":"test@test.com","Phone":"8067139847","City":"test","Street":"Test","State":"Test","Country":"Nigeria","LocalGovt":"test","ZipCode":"1233"}
+2023-01-22 03:49:25.295 +00:00 [INF] () ) Message :::  Send Email Event Triggered :::
+2023-01-22 03:49:25.304 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 65ms
+2023-01-22 03:49:25.402 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-22 03:49:25.405 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-22 03:49:25.419 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 13ms
+2023-01-22 03:49:28.696 +00:00 [INF] () ) [START] Handling GetAuthorByIdQuery
+2023-01-22 03:49:28.704 +00:00 [INF] () ) [DATA] With data: {"Id":"07c7d6c6-2e25-4b18-5e19-08dafc2b324b"}
+2023-01-22 03:49:28.715 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 11ms
+2023-01-22 03:49:37.187 +00:00 [INF] () ) [START] Handling UpdateAuthorCommand
+2023-01-22 03:49:37.190 +00:00 [INF] () ) [DATA] With data: {"Id":"07c7d6c6-2e25-4b18-5e19-08dafc2b324b","FirstName":"Sample new","LastName":"Test new","Phone":"8067139847","City":"test","Street":"Test","State":"Test","Country":"Nigeria","LocalGovt":"test","ZipCode":"1233"}
+2023-01-22 03:49:37.440 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 249ms
+2023-01-22 03:49:37.527 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-22 03:49:37.529 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-22 03:49:37.540 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 11ms
+2023-01-22 03:49:39.429 +00:00 [INF] () ) [START] Handling RemoveAuthorCommand
+2023-01-22 03:49:39.433 +00:00 [INF] () ) [DATA] With data: {"Id":"07c7d6c6-2e25-4b18-5e19-08dafc2b324b"}
+2023-01-22 03:49:39.598 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 164ms
+2023-01-22 03:49:39.627 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-22 03:49:39.630 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-22 03:49:39.639 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 9ms
+2023-01-22 04:08:58.931 +00:00 [INF] () ) Configuring web host (Api)
+2023-01-22 04:08:59.203 +00:00 [INF] () ) Started web host (Api)
+2023-01-22 04:09:06.469 +00:00 [INF] () ) Message :::  Role exist :::
+2023-01-22 04:09:07.693 +00:00 [WRN] () ) Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-01-22 04:12:53.014 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-22 04:12:53.021 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-22 04:12:54.102 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 1083ms
+2023-01-22 04:13:07.782 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-22 04:13:07.786 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-22 04:13:08.051 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 266ms
+2023-01-22 04:13:32.350 +00:00 [INF] () ) [START] Handling CreateAuthorCommand
+2023-01-22 04:13:32.356 +00:00 [INF] () ) [DATA] With data: {"FirstName":"Sample","LastName":"Para Boi","Email":"test@test.com","Phone":"08067139857","City":"test","Street":"Test","State":"Test","Country":"Nigeria","LocalGovt":"test","ZipCode":"1243t4"}
+2023-01-22 04:13:33.181 +00:00 [INF] () ) Message :::  Send Email Event Triggered :::
+2023-01-22 04:13:33.183 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 829ms
+2023-01-22 04:13:33.243 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-22 04:13:33.246 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-22 04:13:33.265 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 19ms
+2023-01-22 04:13:36.826 +00:00 [INF] () ) [START] Handling GetAuthorByIdQuery
+2023-01-22 04:13:36.866 +00:00 [INF] () ) [DATA] With data: {"Id":"789b0cef-ee14-4a68-a335-08dafc2f0638"}
+2023-01-22 04:13:36.988 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 158ms
+2023-01-22 04:13:54.582 +00:00 [INF] () ) [START] Handling UpdateAuthorCommand
+2023-01-22 04:13:54.596 +00:00 [INF] () ) [DATA] With data: {"Id":"789b0cef-ee14-4a68-a335-08dafc2f0638","FirstName":"Sample new edit","LastName":"Go away","Phone":"08067139857","City":"test","Street":"Test","State":"Test","Country":"Nigeria","LocalGovt":"test","ZipCode":"1243t4"}
+2023-01-22 04:13:54.876 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 284ms
+2023-01-22 04:13:54.987 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-22 04:13:54.989 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-22 04:13:55.027 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 37ms
+2023-01-22 04:13:56.943 +00:00 [INF] () ) [START] Handling RemoveAuthorCommand
+2023-01-22 04:13:56.946 +00:00 [INF] () ) [DATA] With data: {"Id":"789b0cef-ee14-4a68-a335-08dafc2f0638"}
+2023-01-22 04:13:57.071 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 125ms
+2023-01-22 04:13:57.090 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-22 04:13:57.092 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-22 04:13:57.098 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 5ms

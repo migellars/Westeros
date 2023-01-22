@@ -75,3 +75,4 @@ C:\Users\Abelmi\source\repos\Westeros\src\bin\Debug\Domain.pdb
 C:\Users\Abelmi\source\repos\Westeros\src\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\Abelmi\source\repos\Westeros\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\Abelmi\source\repos\Westeros\src\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\Abelmi\source\repos\Westeros\src\bin\Debug\LOG\Westeros-Api-20230122.json

@@ -23,3 +23,13 @@ services:
     restart: unless-stopped
     ports:
       - "1450:1433"
+
+
+  arya-app:
+    image: ${DOCKER_REGISTRY-}web
+    container_name: arya
+    build: 
+       context: frontend/arya
+       dockerfile: Dockerfile
+    ports: 
+       - 8030:80

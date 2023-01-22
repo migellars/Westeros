@@ -28,14 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Application\\Application.csproj"
-              },
               "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Infrastructure\\Infrastructure.csproj"
-              },
-              "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\SharedKernel.csproj": {
-                "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\SharedKernel.csproj"
               }
             }
           }
@@ -152,8 +146,8 @@
               "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\SharedKernel.csproj": {
-                "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\SharedKernel.csproj"
+              "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\SharedKernel\\SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\SharedKernel\\SharedKernel.csproj"
               }
             }
           }
@@ -402,14 +396,14 @@
         }
       }
     },
-    "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\SharedKernel.csproj": {
+    "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\SharedKernel\\SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\SharedKernel.csproj",
+        "projectUniqueName": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\SharedKernel\\SharedKernel.csproj",
         "projectName": "SharedKernel",
-        "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\SharedKernel.csproj",
+        "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\SharedKernel\\SharedKernel.csproj",
         "packagesPath": "C:\\Users\\Abelmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\obj\\",
+        "outputPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abelmi\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11501,13 +11501,12 @@
     },
     "SharedKernel/1.0.0": {
       "type": "project",
-      "path": "../../SharedKernel/SharedKernel.csproj",
-      "msbuildProject": "../../SharedKernel/SharedKernel.csproj"
+      "path": "../SharedKernel/SharedKernel.csproj",
+      "msbuildProject": "../SharedKernel/SharedKernel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Application >= 1.0.0",
       "FluentValidation.DependencyInjectionExtensions >= 11.0.0",
       "Infrastructure >= 1.0.0",
       "MediatR >= 11.1.0",
@@ -11519,7 +11518,6 @@
       "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore >= 6.0.12",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
       "Newtonsoft.Json >= 13.0.2",
-      "SharedKernel >= 1.0.0",
       "StyleCop.Analyzers >= 1.1.118",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -11551,14 +11549,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Application\\Application.csproj"
-            },
             "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Infrastructure\\Infrastructure.csproj"
-            },
-            "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\SharedKernel.csproj": {
-              "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\SharedKernel.csproj"
             }
           }
         }

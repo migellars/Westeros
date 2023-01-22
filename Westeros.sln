@@ -24,9 +24,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6FE0F5BA-4F15-437B-815D-30CBC6994F0D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "backend\Shared", "{6FE0F5BA-4F15-437B-815D-30CBC6994F0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{A8A7C492-2A62-431C-993A-8EC675407925}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "backend\SharedKernel\SharedKernel.csproj", "{A8A7C492-2A62-431C-993A-8EC675407925}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{300E6060-B433-4774-A4F9-2CB2CC2641A1}"
 EndProject

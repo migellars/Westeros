@@ -170,3 +170,4 @@ C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\bin\Debug\net6.0\Microsoft
 C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
+C:\Users\Abelmi\source\repos\Westeros\src\backend\Api\bin\Debug\net6.0\LOG\Westeros-Api-20230122.json

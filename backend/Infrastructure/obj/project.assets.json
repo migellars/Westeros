@@ -11119,8 +11119,8 @@
     },
     "SharedKernel/1.0.0": {
       "type": "project",
-      "path": "../../SharedKernel/SharedKernel.csproj",
-      "msbuildProject": "../../SharedKernel/SharedKernel.csproj"
+      "path": "../SharedKernel/SharedKernel.csproj",
+      "msbuildProject": "../SharedKernel/SharedKernel.csproj"
     }
   },
   "projectFileDependencyGroups": {

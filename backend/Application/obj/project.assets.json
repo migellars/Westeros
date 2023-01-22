@@ -10302,8 +10302,8 @@
     },
     "SharedKernel/1.0.0": {
       "type": "project",
-      "path": "../../SharedKernel/SharedKernel.csproj",
-      "msbuildProject": "../../SharedKernel/SharedKernel.csproj"
+      "path": "../SharedKernel/SharedKernel.csproj",
+      "msbuildProject": "../SharedKernel/SharedKernel.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10347,8 +10347,8 @@
             "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\SharedKernel.csproj": {
-              "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\SharedKernel\\SharedKernel.csproj"
+            "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\SharedKernel\\SharedKernel.csproj": {
+              "projectPath": "C:\\Users\\Abelmi\\source\\repos\\Westeros\\src\\backend\\SharedKernel\\SharedKernel.csproj"
             }
           }
         }

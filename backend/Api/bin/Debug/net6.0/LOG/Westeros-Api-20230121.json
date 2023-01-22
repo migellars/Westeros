@@ -112,3 +112,193 @@
 2023-01-21 12:27:14.208 +00:00 [INF] () ) [START] Handling LoginUserCommand
 2023-01-21 12:27:14.218 +00:00 [INF] () ) [DATA] With data: {"UserName":"string","Password":"string123","ConfirmPassword":"string123"}
 2023-01-21 12:27:16.242 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 2028ms
+2023-01-21 12:38:29.628 +00:00 [INF] () ) Configuring web host (Api)
+2023-01-21 12:38:29.726 +00:00 [INF] () ) Started web host (Api)
+2023-01-21 12:38:33.527 +00:00 [INF] () ) Message :::  Role exist :::
+2023-01-21 12:38:33.935 +00:00 [WRN] () ) Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-01-21 12:38:33.974 +00:00 [WRN] () ) No XML encryptor configured. Key {7164b20a-65b2-459d-9245-f0ec9a6ac334} may be persisted to storage in unencrypted form.
+2023-01-21 12:45:04.119 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 12:45:04.126 +00:00 [INF] () ) [DATA] With data: {"UserName":"string","Password":"string123","ConfirmPassword":"string123"}
+2023-01-21 12:45:05.487 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 1363ms
+2023-01-21 14:10:04.552 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:10:04.587 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:10:05.546 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 968ms
+2023-01-21 14:14:11.793 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:14:11.795 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:14:11.884 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 68ms
+2023-01-21 14:15:42.392 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:15:42.396 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:15:42.429 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 33ms
+2023-01-21 14:16:00.464 +00:00 [INF] () ) [START] Handling RegisterUserCommand
+2023-01-21 14:16:00.479 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","Email":"test@test.com","PhoneNumber":"08067139857"}
+2023-01-21 14:16:01.238 +00:00 [INF] () ) Message :::  https://localhost:57705/api/confirm-email?token=CfDJ8AqyZHGyZZ1FkkXw7JpqwzTb0qoTOpZJ4ymM58Qabqj1v0KQvsgAXxvmey5BTID%2BqRkw4kDPLX2vtxs6y%2FjmnFgwHYh3Kn3xFfYTzLJwrN5T7k%2FVQbA9tzpdJQDBtR0nzBRcU9r0wrQ2ssYHHDAgvAKSlfvS8nYP28PeA6Haz%2FDzrrSrjPx80sHTlsZDVLWL4orP9%2FNzJEid61mLRUSaz3QfMEhq8oXZUUMGhKO0k4nC4sNmlWRAOr3MWLKBnu7n6Q%3D%3D :::
+2023-01-21 14:16:01.243 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 776ms
+2023-01-21 14:16:04.688 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:16:04.692 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:16:04.754 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 61ms
+2023-01-21 14:21:21.320 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:21:21.324 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:21:21.426 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 102ms
+2023-01-21 14:21:55.377 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:21:55.380 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:21:55.447 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 67ms
+2023-01-21 14:23:39.255 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:23:39.257 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:23:39.403 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 146ms
+2023-01-21 14:24:02.543 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:24:02.546 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:24:02.649 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 82ms
+2023-01-21 14:25:23.284 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:25:23.285 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:25:23.389 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 104ms
+2023-01-21 14:29:04.539 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:29:04.544 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:29:04.846 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 283ms
+2023-01-21 14:33:06.518 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:33:06.522 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:33:07.291 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 768ms
+2023-01-21 14:39:55.121 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:39:55.124 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:39:55.400 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 277ms
+2023-01-21 14:40:25.542 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:40:25.546 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:40:25.596 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 30ms
+2023-01-21 14:43:15.245 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:43:15.247 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:43:15.348 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 99ms
+2023-01-21 14:44:59.092 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:44:59.095 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:44:59.211 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 114ms
+2023-01-21 14:48:18.820 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:48:18.823 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:48:19.025 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 202ms
+2023-01-21 14:56:36.836 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 14:56:36.840 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 14:56:37.440 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 600ms
+2023-01-21 15:13:01.329 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 15:13:01.342 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 15:13:01.979 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 638ms
+2023-01-21 15:14:05.340 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 15:14:05.343 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 15:14:05.527 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 184ms
+2023-01-21 15:15:40.379 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 15:15:40.383 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 15:15:40.448 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 66ms
+2023-01-21 15:16:49.974 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 15:16:49.976 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 15:16:50.138 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 162ms
+2023-01-21 15:16:57.993 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 15:16:57.997 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 15:16:58.117 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 119ms
+2023-01-21 15:17:16.567 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 15:17:16.570 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 15:17:16.730 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 158ms
+2023-01-21 15:18:31.085 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 15:18:31.088 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 15:18:31.157 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 69ms
+2023-01-21 15:20:30.596 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 15:20:30.602 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 15:20:30.698 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 96ms
+2023-01-21 15:49:17.658 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 15:49:17.673 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 15:49:18.497 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 826ms
+2023-01-21 15:50:31.777 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 15:50:31.781 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 15:50:31.901 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 120ms
+2023-01-21 15:55:47.797 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 15:55:47.801 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 15:55:47.894 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 92ms
+2023-01-21 15:55:50.274 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 15:55:50.301 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 15:55:50.963 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 685ms
+2023-01-21 15:56:25.796 +00:00 [INF] () ) [START] Handling CreateAuthorCommand
+2023-01-21 15:56:25.803 +00:00 [INF] () ) [DATA] With data: {"FirstName":"Michael","LastName":"Abe","Email":"migellars@gmail.com","Phone":"08067139857","City":"test","Street":"Test","State":"Test","Country":"Nigeria","LocalGovt":"test","ZipCode":"1243t4"}
+2023-01-21 15:56:26.462 +00:00 [INF] () ) Message :::  Send Email Event Triggered :::
+2023-01-21 15:56:26.463 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 663ms
+2023-01-21 15:56:35.058 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 15:56:35.059 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 15:56:35.092 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 32ms
+2023-01-21 15:57:49.392 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 15:57:49.404 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 15:57:49.479 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 74ms
+2023-01-21 15:58:00.800 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 15:58:00.807 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 15:58:00.872 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 43ms
+2023-01-21 15:58:19.329 +00:00 [INF] () ) [START] Handling GetAuthorByIdQuery
+2023-01-21 15:58:19.376 +00:00 [INF] () ) [DATA] With data: {"Id":"4e01938f-1554-4664-ceaf-08dafbc80d25"}
+2023-01-21 15:58:19.442 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 109ms
+2023-01-21 15:58:22.438 +00:00 [INF] () ) [START] Handling UpdateAuthorCommand
+2023-01-21 15:58:22.442 +00:00 [INF] () ) [DATA] With data: {"Id":"4e01938f-1554-4664-ceaf-08dafbc80d25","FirstName":"Michael","LastName":"Abe","Phone":"08067139857","City":"test","Street":"Test","State":"Test","Country":"Nigeria","LocalGovt":"test","ZipCode":"1243t4"}
+2023-01-21 15:58:22.675 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 235ms
+2023-01-21 15:58:22.756 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 15:58:22.759 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 15:58:22.769 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 9ms
+2023-01-21 15:58:41.514 +00:00 [INF] () ) [START] Handling CreateAuthorCommand
+2023-01-21 15:58:41.535 +00:00 [INF] () ) [DATA] With data: {"FirstName":"Sample123","LastName":"Para Boi","Email":"stringASD@string.com","Phone":"\u002B2348067139847","City":"test","Street":"test","State":"Test","Country":"Nigeria","LocalGovt":"test","ZipCode":"1243t4"}
+2023-01-21 15:58:41.579 +00:00 [INF] () ) Message :::  Send Email Event Triggered :::
+2023-01-21 15:58:41.623 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 85ms
+2023-01-21 15:58:41.765 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 15:58:41.767 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 15:58:41.781 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 13ms
+2023-01-21 15:59:06.233 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 15:59:06.234 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 15:59:06.336 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 101ms
+2023-01-21 15:59:19.979 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 15:59:19.982 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 15:59:19.995 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 12ms
+2023-01-21 15:59:36.276 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 15:59:36.278 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 15:59:36.311 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 32ms
+2023-01-21 15:59:40.130 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 15:59:40.134 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 15:59:40.143 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 9ms
+2023-01-21 16:00:22.709 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 16:00:22.717 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 16:00:22.795 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 78ms
+2023-01-21 16:00:31.210 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 16:00:31.212 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 16:00:31.272 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 59ms
+2023-01-21 16:01:06.852 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 16:01:06.855 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 16:01:06.934 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 79ms
+2023-01-21 16:01:43.090 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 16:01:43.093 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 16:01:43.152 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 59ms
+2023-01-21 16:01:48.756 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 16:01:48.759 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 16:01:48.816 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 57ms
+2023-01-21 16:01:50.710 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 16:01:50.712 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 16:01:50.720 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 7ms
+2023-01-21 16:01:52.864 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 16:01:52.865 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 16:01:52.874 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 9ms
+2023-01-21 16:01:55.192 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 16:01:55.197 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 16:01:55.204 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 7ms
+2023-01-21 16:02:08.814 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 16:02:08.816 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 16:02:08.846 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 30ms
+2023-01-21 16:02:27.150 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 16:02:27.162 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 16:02:27.183 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 20ms
+2023-01-21 16:02:50.516 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 16:02:50.517 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 16:02:50.574 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 56ms
+2023-01-21 16:50:46.716 +00:00 [INF] () ) Configuring web host (Api)
+2023-01-21 16:50:46.797 +00:00 [INF] () ) Started web host (Api)
+2023-01-21 16:50:49.988 +00:00 [INF] () ) Message :::  Role exist :::
+2023-01-21 16:50:50.356 +00:00 [WRN] () ) Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-01-21 16:55:59.662 +00:00 [INF] () ) [START] Handling LoginUserCommand
+2023-01-21 16:55:59.666 +00:00 [INF] () ) [DATA] With data: {"UserName":"cersei","Password":"test@1234","ConfirmPassword":"test@1234"}
+2023-01-21 16:56:00.387 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 722ms
+2023-01-21 16:56:05.246 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 16:56:05.250 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 16:56:05.540 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 292ms
+2023-01-21 16:57:07.457 +00:00 [INF] () ) [START] Handling CreateAuthorCommand
+2023-01-21 16:57:07.462 +00:00 [INF] () ) [DATA] With data: {"FirstName":"Sample","LastName":"Testwer","Email":"stringASD@string.com","Phone":"8067139847","City":"test","Street":"Test","State":"Test","Country":"Nigeria","LocalGovt":"test","ZipCode":"1243t4"}
+2023-01-21 16:57:08.375 +00:00 [INF] () ) Message :::  Send Email Event Triggered :::
+2023-01-21 16:57:08.379 +00:00 [INF] () ) [END] Handled ApiResponse; Execution time = 920ms
+2023-01-21 16:57:08.481 +00:00 [INF] () ) [START] Handling Pagination`1
+2023-01-21 16:57:08.486 +00:00 [INF] () ) [DATA] With data: {"Count":0,"Page":0,"Size":20,"SearchTerm":""}
+2023-01-21 16:57:08.528 +00:00 [INF] () ) [END] Handled ApiResponse`1; Execution time = 40ms
