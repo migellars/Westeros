@@ -1,0 +1,1321 @@
+{
+	"info": {
+		"_postman_id": "4b165bb6-f733-44e7-a7a6-7c1f3117c3b1",
+		"name": "Hannover",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4404461"
+	},
+	"item": [
+		{
+			"name": "Author",
+			"item": [
+				{
+					"name": "Update Author",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\":\"6C5534F7-6494-4BB0-AAA5-08DAF5C7A210\",\r\n  \"firstName\": \"stringUp\",\r\n  \"lastName\": \"string2\",\r\n  \"phone\": \"08067139857\",\r\n  \"city\": \"string2\",\r\n  \"street\": \"string2\",\r\n  \"state\": \"string2\",\r\n  \"country\": \"string2\",\r\n  \"localGovt\": \"string2\",\r\n  \"zipCode\": \"string2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7235/api/author/edit-author-profile?id=6C5534F7-6494-4BB0-AAA5-08DAF5C7A210",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"author",
+								"edit-author-profile"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "6C5534F7-6494-4BB0-AAA5-08DAF5C7A210"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Author",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7235/api/author/delete-author-profile?id=65AD58EB-06BB-4F65-B2CF-08DAF5C41FCA",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"author",
+								"delete-author-profile"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "65AD58EB-06BB-4F65-B2CF-08DAF5C41FCA"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Author",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "1.0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"email\": \"string@string.com\",\r\n  \"phone\": \"08067139857\",\r\n  \"city\": \"string\",\r\n  \"street\": \"string\",\r\n  \"state\": \"string\",\r\n  \"country\": \"string\",\r\n  \"localGovt\": \"string\",\r\n  \"zipCode\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7235/api/author/create-author-profile",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"author",
+								"create-author-profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Author",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "1.0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7235/api/author/all-author-profile?pageNumber=0&pageSize=10",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"author",
+								"all-author-profile"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get All Author",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "api-version",
+										"value": "2.0",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://localhost:7235/api/author/all-author-profile?pageNumber=0&pageSize=10",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7235",
+									"path": [
+										"api",
+										"author",
+										"all-author-profile"
+									],
+									"query": [
+										{
+											"key": "pageNumber",
+											"value": "0"
+										},
+										{
+											"key": "pageSize",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "1666"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8; ver=2.0"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 14 Jan 2023 01:45:33 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "api-supported-versions",
+									"value": "2.0"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"items\": [\n            {\n                \"id\": \"6c5534f7-6494-4bb0-aaa5-08daf5c7a210\",\n                \"firstName\": \"stringUp\",\n                \"lastName\": \"string2\",\n                \"email\": \"string@string.com\",\n                \"phone\": \"08067139857\",\n                \"address\": {\n                    \"street\": \"string2\",\n                    \"city\": \"string2\",\n                    \"state\": \"string2\",\n                    \"country\": \"string2\",\n                    \"zipCode\": \"string2\",\n                    \"lga\": \"string2\"\n                }\n            },\n            {\n                \"id\": \"d0b7bc81-8e68-4302-aaa6-08daf5c7a210\",\n                \"firstName\": \"string\",\n                \"lastName\": \"string\",\n                \"email\": \"string@string.com\",\n                \"phone\": \"08067139857\",\n                \"address\": {\n                    \"street\": \"string\",\n                    \"city\": \"string\",\n                    \"state\": \"string\",\n                    \"country\": \"string\",\n                    \"zipCode\": \"string\",\n                    \"lga\": \"string\"\n                }\n            },\n            {\n                \"id\": \"c3bab9e6-a9dc-470c-aaa7-08daf5c7a210\",\n                \"firstName\": \"string\",\n                \"lastName\": \"string\",\n                \"email\": \"string@string.com\",\n                \"phone\": \"08067139857\",\n                \"address\": {\n                    \"street\": \"string\",\n                    \"city\": \"string\",\n                    \"state\": \"string\",\n                    \"country\": \"string\",\n                    \"zipCode\": \"string\",\n                    \"lga\": \"string\"\n                }\n            },\n            {\n                \"id\": \"385da854-f6c8-4cd6-aaa8-08daf5c7a210\",\n                \"firstName\": \"string\",\n                \"lastName\": \"string\",\n                \"email\": \"string@string.com\",\n                \"phone\": \"08067139857\",\n                \"address\": {\n                    \"street\": \"string\",\n                    \"city\": \"string\",\n                    \"state\": \"string\",\n                    \"country\": \"string\",\n                    \"zipCode\": \"string\",\n                    \"lga\": \"string\"\n                }\n            },\n            {\n                \"id\": \"d6b3fca4-788f-41b8-aaa9-08daf5c7a210\",\n                \"firstName\": \"string\",\n                \"lastName\": \"string\",\n                \"email\": \"string@string.com\",\n                \"phone\": \"08067139857\",\n                \"address\": {\n                    \"street\": \"string\",\n                    \"city\": \"string\",\n                    \"state\": \"string\",\n                    \"country\": \"string\",\n                    \"zipCode\": \"string\",\n                    \"lga\": \"string\"\n                }\n            },\n            {\n                \"id\": \"31eed335-7f04-40d5-aaaa-08daf5c7a210\",\n                \"firstName\": \"string\",\n                \"lastName\": \"string\",\n                \"email\": \"string@string.com\",\n                \"phone\": \"08067139857\",\n                \"address\": {\n                    \"street\": \"string\",\n                    \"city\": \"string\",\n                    \"state\": \"string\",\n                    \"country\": \"string\",\n                    \"zipCode\": \"string\",\n                    \"lga\": \"string\"\n                }\n            }\n        ],\n        \"data\": null,\n        \"count\": 6,\n        \"page\": 0,\n        \"size\": 10,\n        \"searchTerm\": null,\n        \"queryBuilder\": {}\n    },\n    \"success\": true,\n    \"message\": \"Data Retrieved\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Author By Id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7235/api/author/author-profile?id=31EED335-7F04-40D5-AAAA-08DAF5C7A210",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"author",
+								"author-profile"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "31EED335-7F04-40D5-AAAA-08DAF5C7A210"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Author By Id",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "api-version",
+										"value": "2.0",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://localhost:7235/api/author/author-profile?id=31EED335-7F04-40D5-AAAA-08DAF5C7A210",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7235",
+									"path": [
+										"api",
+										"author",
+										"author-profile"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "31EED335-7F04-40D5-AAAA-08DAF5C7A210"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "303"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8; ver=2.0"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 14 Jan 2023 02:05:21 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "api-supported-versions",
+									"value": "2.0"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"id\": \"31eed335-7f04-40d5-aaaa-08daf5c7a210\",\n        \"firstName\": \"string\",\n        \"lastName\": \"string\",\n        \"email\": \"string@string.com\",\n        \"phone\": \"08067139857\",\n        \"address\": {\n            \"street\": \"string\",\n            \"city\": \"string\",\n            \"state\": \"string\",\n            \"country\": \"string\",\n            \"zipCode\": \"string\",\n            \"lga\": \"string\"\n        }\n    },\n    \"success\": true,\n    \"message\": \"Data Retrieved\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Create User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "1.0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"userName\": \"cersei\",\r\n  \"password\": \"test@1234\",\r\n  \"email\": \"test@test.com\",\r\n  \"phoneNumber\": \"08067139857\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7225/api/auth/register-user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7225",
+							"path": [
+								"api",
+								"auth",
+								"register-user"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create User",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "api-version",
+										"value": "2.0",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"userName\": \"cersei\",\r\n  \"password\": \"test@1234\",\r\n  \"email\": \"test@test.com\",\r\n  \"phoneNumber\": \"08067139857\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7235/api/auth/register-user",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7235",
+									"path": [
+										"api",
+										"auth",
+										"register-user"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8; ver=2.0"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 14 Jan 2023 20:05:48 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Location",
+									"value": ""
+								},
+								{
+									"key": "api-supported-versions",
+									"value": "2.0"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"User Created\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get All User",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7235/api/auth/all-user-profile?pageNumber=0&pageSize=20",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"auth",
+								"all-user-profile"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get All User",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "api-version",
+										"value": "2.0",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://localhost:7235/api/auth/all-user-profile?pageNumber=0&pageSize=20",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7235",
+									"path": [
+										"api",
+										"auth",
+										"all-user-profile"
+									],
+									"query": [
+										{
+											"key": "pageNumber",
+											"value": "0"
+										},
+										{
+											"key": "pageSize",
+											"value": "20"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "759"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8; ver=2.0"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 14 Jan 2023 21:30:18 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "api-supported-versions",
+									"value": "2.0"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"items\": [\n            {\n                \"id\": \"3d7afdc9-7808-4ffb-b45e-08daf6765e87\",\n                \"userName\": \"cersei\",\n                \"email\": \"test@test.com\",\n                \"phoneNumber\": null,\n                \"userType\": 0\n            },\n            {\n                \"id\": \"f735a100-cb12-47d6-b45f-08daf6765e87\",\n                \"userName\": \"cersei1\",\n                \"email\": \"test@test.com\",\n                \"phoneNumber\": null,\n                \"userType\": 0\n            },\n            {\n                \"id\": \"5ada4a68-c997-479d-b460-08daf6765e87\",\n                \"userName\": \"cersei12\",\n                \"email\": \"test@test.com\",\n                \"phoneNumber\": null,\n                \"userType\": 0\n            },\n            {\n                \"id\": \"9ea3f46a-20e5-4ef4-b461-08daf6765e87\",\n                \"userName\": \"cersei123\",\n                \"email\": \"test@test.com\",\n                \"phoneNumber\": null,\n                \"userType\": 0\n            },\n            {\n                \"id\": \"5f417f74-34da-4bfe-b462-08daf6765e87\",\n                \"userName\": \"cersei1234\",\n                \"email\": \"test@test.com\",\n                \"phoneNumber\": null,\n                \"userType\": 0\n            }\n        ],\n        \"data\": null,\n        \"count\": 5,\n        \"page\": 0,\n        \"size\": 20,\n        \"searchTerm\": null,\n        \"queryBuilder\": {}\n    },\n    \"success\": true,\n    \"message\": \"Data Retrieved\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7235/api/auth/delete-user?id=5424DACF-03DD-48AF-6D62-08DAF66AAD1F",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"auth",
+								"delete-user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5424DACF-03DD-48AF-6D62-08DAF66AAD1F"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Delete User",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "api-version",
+										"value": "2.0",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://localhost:7235/api/auth/delete-user?id=5424DACF-03DD-48AF-6D62-08DAF66AAD1F",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7235",
+									"path": [
+										"api",
+										"auth",
+										"delete-user"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "5424DACF-03DD-48AF-6D62-08DAF66AAD1F"
+										}
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8; ver=2.0"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 14 Jan 2023 20:07:06 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Location",
+									"value": ""
+								},
+								{
+									"key": "api-supported-versions",
+									"value": "2.0"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"User Deleted\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get User By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY2Vyc2VpIiwiZW1haWwiOiJ0ZXN0QHRlc3QuY29tIiwibmJmIjoxNjczNzQ4NjY3LCJleHAiOjE2NzM3NDkyNjcsImlhdCI6MTY3Mzc0ODY2N30.rMm4q7R7Y9rjlQOse0AMlGq5g3rsKuPc8aW8Tu66w9o",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7235/api/auth/user?id=3D7AFDC9-7808-4FFB-B45E-08DAF6765E87",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"auth",
+								"user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "3D7AFDC9-7808-4FFB-B45E-08DAF6765E87"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get User By Id",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "api-version",
+										"value": "2.0",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://localhost:7235/api/auth/user?id=3D7AFDC9-7808-4FFB-B45E-08DAF6765E87",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7235",
+									"path": [
+										"api",
+										"auth",
+										"user"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "3D7AFDC9-7808-4FFB-B45E-08DAF6765E87"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "160"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8; ver=2.0"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 14 Jan 2023 21:32:50 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "api-supported-versions",
+									"value": "2.0"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"id\": \"3d7afdc9-7808-4ffb-b45e-08daf6765e87\",\n        \"userName\": \"cersei\",\n        \"email\": \"test@test.com\",\n        \"phoneNumber\": null,\n        \"userType\": 0\n    },\n    \"success\": true,\n    \"message\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "1.0",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"userName\": \"cersei\",\r\n//   \"email\": \"test@test.com\",\r\n  \"password\": \"test@1234\",\r\n  \"confirmPassword\": \"test@1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7225/api/auth/login-user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7225",
+							"path": [
+								"api",
+								"auth",
+								"login-user"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "api-version",
+										"value": "2.0",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"userName\": \"cersei\",\r\n  \"email\": \"test@test.com\",\r\n  \"password\": \"test@1234\",\r\n  \"confirmPassword\": \"test@1234\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7235/api/auth/login-user",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7235",
+									"path": [
+										"api",
+										"auth",
+										"login-user"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "310"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8; ver=2.0"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 14 Jan 2023 22:04:00 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "api-supported-versions",
+									"value": "2.0"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY2Vyc2VpIiwiZW1haWwiOiJ0ZXN0QHRlc3QuY29tIiwibmJmIjoxNjczNzMzODQxLCJleHAiOjE2NzM3MzQ0NDEsImlhdCI6MTY3MzczMzg0MX0.I3s6SDZ-Codc4gTIsCPRCV3RxkHzQlPOuytL48pB-zY\",\n        \"userName\": \"cersei\",\n        \"expiresIn\": \"00:09:59\"\n    },\n    \"success\": true,\n    \"message\": \"Data Retrieved\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lesson",
+			"item": [
+				{
+					"name": "Create Lesson",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY2Vyc2VpIiwiZW1haWwiOiJ0ZXN0QHRlc3QuY29tIiwibmJmIjoxNjczNzQzODUyLCJleHAiOjE2NzM3NDQ0NTIsImlhdCI6MTY3Mzc0Mzg1Mn0.p3FGulFpKbtp25E75sLzjssM-mKhc7BIx5yUGyoeyEU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Agric\",\r\n  \"description\": \"Planting and weeding\",\r\n  \"authorId\": \"31EED335-7F04-40D5-AAAA-08DAF5C7A210\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7235/api/lesson/create-lesson",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"lesson",
+								"create-lesson"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create Lesson",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "api-version",
+										"value": "2.0",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"Agric\",\r\n  \"description\": \"Planting and weeding\",\r\n  \"authorId\": \"31EED335-7F04-40D5-AAAA-08DAF5C7A210\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7235/api/lesson/create-lesson",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7235",
+									"path": [
+										"api",
+										"lesson",
+										"create-lesson"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8; ver=2.0"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 15 Jan 2023 00:59:08 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "api-supported-versions",
+									"value": "2.0"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Data Created\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Update Lesson",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY2Vyc2VpIiwiZW1haWwiOiJ0ZXN0QHRlc3QuY29tIiwibmJmIjoxNjczNzQ1NzUwLCJleHAiOjE2NzM3NDYzNDksImlhdCI6MTY3Mzc0NTc1MH0.2sn9fvTFiss8PAusHrex6ZxfmvGuEsV1V2Z_0lxcuVE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Agriculture\",\r\n  \"description\": \"Planting and weeding\",\r\n  \"authorId\": \"31EED335-7F04-40D5-AAAA-08DAF5C7A210\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7235/api/lesson/edit-lesson?id=AD99F882-9B60-454C-2AA0-08DAF692ED20",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"lesson",
+								"edit-lesson"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "AD99F882-9B60-454C-2AA0-08DAF692ED20"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Update Lesson",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "api-version",
+										"value": "2.0",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"Agriculture\",\r\n  \"description\": \"Planting and weeding\",\r\n  \"authorId\": \"31EED335-7F04-40D5-AAAA-08DAF5C7A210\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7235/api/lesson/edit-lesson?id=AD99F882-9B60-454C-2AA0-08DAF692ED20",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7235",
+									"path": [
+										"api",
+										"lesson",
+										"edit-lesson"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "AD99F882-9B60-454C-2AA0-08DAF692ED20"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8; ver=2.0"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 15 Jan 2023 01:26:16 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "api-supported-versions",
+									"value": "2.0"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Data Updated\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete Lesson",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY2Vyc2VpIiwiZW1haWwiOiJ0ZXN0QHRlc3QuY29tIiwibmJmIjoxNjczNzQ2NzgyLCJleHAiOjE2NzM3NDczODIsImlhdCI6MTY3Mzc0Njc4Mn0.BqsXxLZKU0SCq9GIYtZpQMj3wbf5K5Qn9mpH_wDC0Lw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7235/api/lesson/delete-lesson?id=AD99F882-9B60-454C-2AA0-08DAF692ED20",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"lesson",
+								"delete-lesson"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "AD99F882-9B60-454C-2AA0-08DAF692ED20"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Delete Lesson",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "api-version",
+										"value": "2.0",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://localhost:7235/api/lesson/delete-lesson?id=AD99F882-9B60-454C-2AA0-08DAF692ED20",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7235",
+									"path": [
+										"api",
+										"lesson",
+										"delete-lesson"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "AD99F882-9B60-454C-2AA0-08DAF692ED20"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8; ver=2.0"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 15 Jan 2023 01:39:59 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "api-supported-versions",
+									"value": "2.0"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Data Deleted\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get All Lesson",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY2Vyc2VpIiwiZW1haWwiOiJ0ZXN0QHRlc3QuY29tIiwibmJmIjoxNjczNzQ3NzEyLCJleHAiOjE2NzM3NDgzMTIsImlhdCI6MTY3Mzc0NzcxMn0._qrdM-8enOa7THVz9SXewxt-8uK2pU8UwK-dc4v130k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7235/api/lesson/all-lesson?pageNumber=0&pageSize=20",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"lesson",
+								"all-lesson"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get All Lesson",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "api-version",
+										"value": "2.0",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://localhost:7235/api/lesson/all-lesson?pageNumber=0&pageSize=20",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7235",
+									"path": [
+										"api",
+										"lesson",
+										"all-lesson"
+									],
+									"query": [
+										{
+											"key": "pageNumber",
+											"value": "0"
+										},
+										{
+											"key": "pageSize",
+											"value": "20"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "357"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8; ver=2.0"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 15 Jan 2023 02:01:43 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "api-supported-versions",
+									"value": "2.0"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"items\": [\n            {\n                \"id\": \"65e54644-2d80-420b-2dcc-08daf6937a77\",\n                \"name\": \"Agric\",\n                \"description\": \"Planting and weeding\",\n                \"status\": 2\n            },\n            {\n                \"id\": \"d6f95661-8095-49b3-2dcd-08daf6937a77\",\n                \"name\": \"Agric\",\n                \"description\": \"Planting and weeding\",\n                \"status\": 2\n            }\n        ],\n        \"data\": null,\n        \"count\": 2,\n        \"page\": 0,\n        \"size\": 20,\n        \"searchTerm\": null,\n        \"queryBuilder\": {}\n    },\n    \"success\": true,\n    \"message\": \"Data Retrieved\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Lesson By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY2Vyc2VpIiwiZW1haWwiOiJ0ZXN0QHRlc3QuY29tIiwibmJmIjoxNjczNzQ4NjY3LCJleHAiOjE2NzM3NDkyNjcsImlhdCI6MTY3Mzc0ODY2N30.rMm4q7R7Y9rjlQOse0AMlGq5g3rsKuPc8aW8Tu66w9o",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7235/api/lesson/get-lesson?id=65e54644-2d80-420b-2dcc-08daf6937a77",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7235",
+							"path": [
+								"api",
+								"lesson",
+								"get-lesson"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "65e54644-2d80-420b-2dcc-08daf6937a77"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
